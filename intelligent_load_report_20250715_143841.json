@@ -1,0 +1,496 @@
+{
+  "timestamp": "20250715_143841",
+  "symbol_resolution": {
+    "total_inputs": 658,
+    "symbols_passed_through": 544,
+    "names_resolved": 88,
+    "failed_resolutions": 14,
+    "conversions": [
+      {
+        "name": "MercadoLibre",
+        "symbol": "MELI"
+      },
+      {
+        "name": "ASML Holding",
+        "symbol": "ASML"
+      },
+      {
+        "name": "Intel",
+        "symbol": "INTC"
+      },
+      {
+        "name": "Intuitive Surgical",
+        "symbol": "ISRG"
+      },
+      {
+        "name": "Applovin Corp",
+        "symbol": "APP"
+      },
+      {
+        "name": "Fastenal",
+        "symbol": "F"
+      },
+      {
+        "name": "Ansys",
+        "symbol": "A"
+      },
+      {
+        "name": "Biogen",
+        "symbol": "B"
+      },
+      {
+        "name": "Costco",
+        "symbol": "COST"
+      },
+      {
+        "name": "CSX Corporation",
+        "symbol": "C"
+      },
+      {
+        "name": "Microchip Technology",
+        "symbol": "MT"
+      },
+      {
+        "name": "PDD Holdings",
+        "symbol": "PDD"
+      },
+      {
+        "name": "Warner Bros. Discovery",
+        "symbol": "WBD"
+      },
+      {
+        "name": "MicroStrategy Inc.",
+        "symbol": "MSTR"
+      },
+      {
+        "name": "T-Mobile US",
+        "symbol": "TMUS"
+      },
+      {
+        "name": "Palantir Technologies",
+        "symbol": "PLTR"
+      },
+      {
+        "name": "Texas Instruments",
+        "symbol": "TXN"
+      },
+      {
+        "name": "Vertex Pharmaceuticals",
+        "symbol": "VRTX"
+      },
+      {
+        "name": "Microsoft",
+        "symbol": "MSFT"
+      },
+      {
+        "name": "Monster Beverage",
+        "symbol": "MB"
+      },
+      {
+        "name": "Marriott International",
+        "symbol": "MI"
+      },
+      {
+        "name": "American Electric Power",
+        "symbol": "AEP"
+      },
+      {
+        "name": "Electronic Arts",
+        "symbol": "EA"
+      },
+      {
+        "name": "Coca-Cola Europacific Partners",
+        "symbol": "CEP"
+      },
+      {
+        "name": "CDW Corporation",
+        "symbol": "C"
+      },
+      {
+        "name": "Datadog",
+        "symbol": "D"
+      },
+      {
+        "name": "Keurig Dr Pepper",
+        "symbol": "KDP"
+      },
+      {
+        "name": "Adobe Inc.",
+        "symbol": "ADBE"
+      },
+      {
+        "name": "PepsiCo",
+        "symbol": "PEP"
+      },
+      {
+        "name": "Baker Hughes",
+        "symbol": "BH"
+      },
+      {
+        "name": "Advanced Micro Devices Inc.",
+        "symbol": "AMD"
+      },
+      {
+        "name": "Amazon",
+        "symbol": "AMZN"
+      },
+      {
+        "name": "Comcast",
+        "symbol": "CMCSA"
+      },
+      {
+        "name": "Honeywell",
+        "symbol": "HON"
+      },
+      {
+        "name": "Palo Alto Networks",
+        "symbol": "PANW"
+      },
+      {
+        "name": "Booking Holdings",
+        "symbol": "BKNG"
+      },
+      {
+        "name": "Analog Devices",
+        "symbol": "ADI"
+      },
+      {
+        "name": "Autodesk",
+        "symbol": "A"
+      },
+      {
+        "name": "Alphabet Inc. (Class C)",
+        "symbol": "GOOG"
+      },
+      {
+        "name": "Constellation Energy",
+        "symbol": "CEG"
+      },
+      {
+        "name": "AstraZeneca",
+        "symbol": "AZN"
+      },
+      {
+        "name": "Marvell Technology",
+        "symbol": "MT"
+      },
+      {
+        "name": "Onsemi",
+        "symbol": "O"
+      },
+      {
+        "name": "Shopify",
+        "symbol": "SHOP"
+      },
+      {
+        "name": "CrowdStrike",
+        "symbol": "CRWD"
+      },
+      {
+        "name": "Workday, Inc.",
+        "symbol": "W"
+      },
+      {
+        "name": "GlobalFoundries",
+        "symbol": "G"
+      },
+      {
+        "name": "Starbucks",
+        "symbol": "SBUX"
+      },
+      {
+        "name": "Verisk",
+        "symbol": "V"
+      },
+      {
+        "name": "CoStar Group",
+        "symbol": "C"
+      },
+      {
+        "name": "Arm Holdings",
+        "symbol": "ARM"
+      },
+      {
+        "name": "Nvidia",
+        "symbol": "NVDA"
+      },
+      {
+        "name": "Exelon",
+        "symbol": "E"
+      },
+      {
+        "name": "Diamondback Energy",
+        "symbol": "DE"
+      },
+      {
+        "name": "Copart",
+        "symbol": "C"
+      },
+      {
+        "name": "Fortinet",
+        "symbol": "F"
+      },
+      {
+        "name": "Lam Research",
+        "symbol": "LRCX"
+      },
+      {
+        "name": "Broadcom Inc.",
+        "symbol": "AVGO"
+      },
+      {
+        "name": "Ross Stores",
+        "symbol": "RS"
+      },
+      {
+        "name": "Meta Platforms",
+        "symbol": "META"
+      },
+      {
+        "name": "DoorDash",
+        "symbol": "DASH"
+      },
+      {
+        "name": "Netflix",
+        "symbol": "NFLX"
+      },
+      {
+        "name": "Old Dominion Freight Line",
+        "symbol": "ODFL"
+      },
+      {
+        "name": "Charter Communications",
+        "symbol": "CC"
+      },
+      {
+        "name": "Atlassian",
+        "symbol": "A"
+      },
+      {
+        "name": "Micron Technology",
+        "symbol": "MU"
+      },
+      {
+        "name": "Roper Technologies",
+        "symbol": "R"
+      },
+      {
+        "name": "Mondelez International",
+        "symbol": "MDLZ"
+      },
+      {
+        "name": "VOW3.DE",
+        "symbol": "VOW3.DE"
+      },
+      {
+        "name": "MUV2.DE",
+        "symbol": "MUV2.DE"
+      },
+      {
+        "name": "Amgen",
+        "symbol": "AMGN"
+      },
+      {
+        "name": "Airbnb",
+        "symbol": "A"
+      },
+      {
+        "name": "Applied Materials",
+        "symbol": "AMAT"
+      },
+      {
+        "name": "Alphabet Inc. (Class A)",
+        "symbol": "GOOGL"
+      },
+      {
+        "name": "Tesla, Inc.",
+        "symbol": "TSLA"
+      },
+      {
+        "name": "Cisco",
+        "symbol": "CSCO"
+      },
+      {
+        "name": "Zscaler",
+        "symbol": "Z"
+      },
+      {
+        "name": "GE HealthCare",
+        "symbol": "GH"
+      },
+      {
+        "name": "Cognizant",
+        "symbol": "C"
+      },
+      {
+        "name": "Gilead Sciences",
+        "symbol": "GILD"
+      },
+      {
+        "name": "Apple Inc.",
+        "symbol": "AAPL"
+      },
+      {
+        "name": "DexCom",
+        "symbol": "D"
+      },
+      {
+        "name": "Intuit",
+        "symbol": "INTU"
+      },
+      {
+        "name": "KLA Corporation",
+        "symbol": "KLAC"
+      },
+      {
+        "name": "Synopsys",
+        "symbol": "S"
+      },
+      {
+        "name": "Qualcomm",
+        "symbol": "QCOM"
+      },
+      {
+        "name": "Cintas",
+        "symbol": "C"
+      },
+      {
+        "name": "Linde plc",
+        "symbol": "LIN"
+      }
+    ],
+    "failures": [
+      {
+        "input": "Take-Two Interactive",
+        "type": "unresolved_name",
+        "reason": "No se pudo encontrar símbolo válido"
+      },
+      {
+        "input": "BOL.MC",
+        "type": "invalid_symbol",
+        "reason": "No pasa validación yfinance"
+      },
+      {
+        "input": "Paccar",
+        "type": "unresolved_name",
+        "reason": "No se pudo encontrar símbolo válido"
+      },
+      {
+        "input": "Axon Enterprise Inc.",
+        "type": "unresolved_name",
+        "reason": "No se pudo encontrar símbolo válido"
+      },
+      {
+        "input": "Idexx Laboratories",
+        "type": "unresolved_name",
+        "reason": "No se pudo encontrar símbolo válido"
+      },
+      {
+        "input": "Paychex",
+        "type": "unresolved_name",
+        "reason": "No se pudo encontrar símbolo válido"
+      },
+      {
+        "input": "BAS.MC",
+        "type": "invalid_symbol",
+        "reason": "No pasa validación yfinance"
+      },
+      {
+        "input": "Xcel Energy",
+        "type": "unresolved_name",
+        "reason": "No se pudo encontrar símbolo válido"
+      },
+      {
+        "input": "PAS.MC",
+        "type": "invalid_symbol",
+        "reason": "No pasa validación yfinance"
+      },
+      {
+        "input": "Kraft Heinz",
+        "type": "unresolved_name",
+        "reason": "No se pudo encontrar símbolo válido"
+      },
+      {
+        "input": "EDI.MC",
+        "type": "invalid_symbol",
+        "reason": "No pasa validación yfinance"
+      },
+      {
+        "input": "CRE.MC",
+        "type": "invalid_symbol",
+        "reason": "No pasa validación yfinance"
+      },
+      {
+        "input": "O'Reilly Automotive",
+        "type": "unresolved_name",
+        "reason": "No se pudo encontrar símbolo válido"
+      },
+      {
+        "input": "OPE.MC",
+        "type": "invalid_symbol",
+        "reason": "No pasa validación yfinance"
+      },
+      {
+        "input": "Trade Desk (The)",
+        "type": "unresolved_name",
+        "reason": "No se pudo encontrar símbolo válido"
+      },
+      {
+        "input": "Cadence Design Systems",
+        "type": "unresolved_name",
+        "reason": "No se pudo encontrar símbolo válido"
+      },
+      {
+        "input": "EVO.MC",
+        "type": "invalid_symbol",
+        "reason": "No pasa validación yfinance"
+      },
+      {
+        "input": "ISI.MC",
+        "type": "invalid_symbol",
+        "reason": "No pasa validación yfinance"
+      },
+      {
+        "input": "REL.MC",
+        "type": "invalid_symbol",
+        "reason": "No pasa validación yfinance"
+      },
+      {
+        "input": "BRK.B",
+        "type": "invalid_symbol",
+        "reason": "No pasa validación yfinance"
+      },
+      {
+        "input": "Regeneron Pharmaceuticals",
+        "type": "unresolved_name",
+        "reason": "No se pudo encontrar símbolo válido"
+      },
+      {
+        "input": "PayPal",
+        "type": "unresolved_name",
+        "reason": "No se pudo encontrar símbolo válido"
+      },
+      {
+        "input": "NXP Semiconductors",
+        "type": "unresolved_name",
+        "reason": "No se pudo encontrar símbolo válido"
+      },
+      {
+        "input": "Lululemon Athletica",
+        "type": "unresolved_name",
+        "reason": "No se pudo encontrar símbolo válido"
+      },
+      {
+        "input": "SIT.MC",
+        "type": "invalid_symbol",
+        "reason": "No pasa validación yfinance"
+      },
+      {
+        "input": "BF.B",
+        "type": "invalid_symbol",
+        "reason": "No pasa validación yfinance"
+      }
+    ]
+  },
+  "data_loading": {
+    "AES": 

@@ -1,0 +1,3027 @@
+{
+  "mappings": {
+    "Nvidia": "NVDA",
+    "Microsoft": "MSFT",
+    "Apple Inc.": "AAPL",
+    "Amazon": "AMZN",
+    "Meta Platforms": "META",
+    "Broadcom Inc.": "AVGO",
+    "Alphabet Inc. (Class A)": "GOOGL",
+    "Alphabet Inc. (Class C)": "GOOG",
+    "Tesla, Inc.": "TSLA",
+    "Netflix": "NFLX",
+    "Costco": "COST",
+    "Palantir Technologies": "PLTR",
+    "ASML Holding": "ASML",
+    "Cisco": "CSCO",
+    "T-Mobile US": "TMUS",
+    "Advanced Micro Devices Inc.": "AMD",
+    "AstraZeneca": "AZN",
+    "Linde plc": "LIN",
+    "Intuit": "INTU",
+    "Texas Instruments": "TXN",
+    "Booking Holdings": "BKNG",
+    "Intuitive Surgical": "ISRG",
+    "PepsiCo": "PEP",
+    "Qualcomm": "QCOM",
+    "Applied Materials": "AMAT",
+    "Amgen": "AMGN",
+    "Arm Holdings": "ARM",
+    "Adobe Inc.": "ADBE",
+    "Honeywell": "HON",
+    "Shopify": "SHOP",
+    "PDD Holdings": "PDD",
+    "Gilead Sciences": "GILD",
+    "Micron Technology": "MU",
+    "Comcast": "CMCSA",
+    "Lam Research": "LRCX",
+    "Palo Alto Networks": "PANW",
+    "MicroStrategy Inc.": "MSTR",
+    "KLA Corporation": "KLAC",
+    "Vertex Pharmaceuticals": "VRTX",
+    "Analog Devices": "ADI",
+    "MercadoLibre": "MELI",
+    "CrowdStrike": "CRWD",
+    "Applovin Corp": "APP",
+    "Starbucks": "SBUX",
+    "Intel": "INTC",
+    "Constellation Energy": "CEG",
+    "DoorDash": "DASH",
+    "Mondelez International": "MDLZ",
+    "Cintas": "C",
+    "Biogen": "B",
+    "Ross Stores": "RS",
+    "Roper Technologies": "R",
+    "Coca-Cola Europacific Partners": "CEP",
+    "CoStar Group": "C",
+    "MUV2.DE": "MUV2.DE",
+    "Fortinet": "F",
+    "Keurig Dr Pepper": "KDP",
+    "American Electric Power": "AEP",
+    "Warner Bros. Discovery": "WBD",
+    "Zscaler": "Z",
+    "Baker Hughes": "BH",
+    "DexCom": "D",
+    "GE HealthCare": "GH",
+    "Airbnb": "A",
+    "Electronic Arts": "EA",
+    "Atlassian": "A",
+    "VOW3.DE": "VOW3.DE",
+    "Microchip Technology": "MT",
+    "Ansys": "A",
+    "Datadog": "D",
+    "Workday, Inc.": "W",
+    "GlobalFoundries": "G",
+    "Marvell Technology": "MT",
+    "Cognizant": "C",
+    "Synopsys": "S",
+    "Marriott International": "MI",
+    "Fastenal": "F",
+    "Monster Beverage": "MB",
+    "CSX Corporation": "C",
+    "Old Dominion Freight Line": "ODFL",
+    "Verisk": "V",
+    "CDW Corporation": "C",
+    "Autodesk": "A",
+    "Onsemi": "O",
+    "Copart": "C",
+    "Exelon": "E",
+    "Charter Communications": "CC",
+    "Diamondback Energy": "DE"
+  },
+  "validations": {
+    "NVDA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559189",
+      "source": "known_mapping"
+    },
+    "MSFT": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559200",
+      "source": "known_mapping"
+    },
+    "AAPL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559202",
+      "source": "known_mapping"
+    },
+    "AMZN": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559204",
+      "source": "known_mapping"
+    },
+    "META": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559206",
+      "source": "known_mapping"
+    },
+    "AVGO": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559208",
+      "source": "known_mapping"
+    },
+    "GOOGL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559210",
+      "source": "known_mapping"
+    },
+    "GOOG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559211",
+      "source": "known_mapping"
+    },
+    "TSLA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559213",
+      "source": "known_mapping"
+    },
+    "NFLX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559215",
+      "source": "known_mapping"
+    },
+    "COST": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559216",
+      "source": "known_mapping"
+    },
+    "PLTR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559218",
+      "source": "known_mapping"
+    },
+    "ASML": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559220",
+      "source": "known_mapping"
+    },
+    "CSCO": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559222",
+      "source": "known_mapping"
+    },
+    "TMUS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559223",
+      "source": "known_mapping"
+    },
+    "AMD": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559225",
+      "source": "known_mapping"
+    },
+    "AZN": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559226",
+      "source": "known_mapping"
+    },
+    "LIN": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559228",
+      "source": "known_mapping"
+    },
+    "INTU": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559230",
+      "source": "known_mapping"
+    },
+    "TXN": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559235",
+      "source": "known_mapping"
+    },
+    "BKNG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559237",
+      "source": "known_mapping"
+    },
+    "ISRG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559238",
+      "source": "known_mapping"
+    },
+    "PEP": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559240",
+      "source": "known_mapping"
+    },
+    "QCOM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559242",
+      "source": "known_mapping"
+    },
+    "AMAT": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559243",
+      "source": "known_mapping"
+    },
+    "AMGN": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559245",
+      "source": "known_mapping"
+    },
+    "ARM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559247",
+      "source": "known_mapping"
+    },
+    "ADBE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559248",
+      "source": "known_mapping"
+    },
+    "HON": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559250",
+      "source": "known_mapping"
+    },
+    "SHOP": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559251",
+      "source": "known_mapping"
+    },
+    "PDD": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559253",
+      "source": "known_mapping"
+    },
+    "GILD": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559254",
+      "source": "known_mapping"
+    },
+    "MU": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559256",
+      "source": "known_mapping"
+    },
+    "CMCSA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559257",
+      "source": "known_mapping"
+    },
+    "LRCX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559259",
+      "source": "known_mapping"
+    },
+    "PANW": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559260",
+      "source": "known_mapping"
+    },
+    "MSTR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559262",
+      "source": "known_mapping"
+    },
+    "KLAC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559264",
+      "source": "known_mapping"
+    },
+    "VRTX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559267",
+      "source": "known_mapping"
+    },
+    "ADI": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559269",
+      "source": "known_mapping"
+    },
+    "MELI": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559271",
+      "source": "known_mapping"
+    },
+    "CRWD": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559272",
+      "source": "known_mapping"
+    },
+    "APP": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559275",
+      "source": "known_mapping"
+    },
+    "SBUX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559276",
+      "source": "known_mapping"
+    },
+    "INTC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559278",
+      "source": "known_mapping"
+    },
+    "CEG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559280",
+      "source": "known_mapping"
+    },
+    "DASH": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559281",
+      "source": "known_mapping"
+    },
+    "MDLZ": {
+      "valid": true,
+      "last_check": "2025-07-15T14:23:38.559283",
+      "source": "known_mapping"
+    },
+    "I": {
+      "valid": false,
+      "last_check": "2025-07-15T14:23:44.384155",
+      "source": "yfinance_validation"
+    },
+    "GLW": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:26.682534",
+      "source": "yfinance_validation"
+    },
+    "EQR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:26.812858",
+      "source": "yfinance_validation"
+    },
+    "ODFL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:26.910545",
+      "source": "yfinance_validation"
+    },
+    "GLEN.L": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:27.097288",
+      "source": "yfinance_validation"
+    },
+    "ORCL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:27.188237",
+      "source": "yfinance_validation"
+    },
+    "TDY": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:27.265143",
+      "source": "yfinance_validation"
+    },
+    "TDG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:27.377328",
+      "source": "yfinance_validation"
+    },
+    "DTE.DE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:27.482908",
+      "source": "yfinance_validation"
+    },
+    "SOLV": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:27.575547",
+      "source": "yfinance_validation"
+    },
+    "PAS.MC": {
+      "valid": false,
+      "last_check": "2025-07-15T14:24:27.646752",
+      "source": "yfinance_validation"
+    },
+    "JBHT": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:27.794791",
+      "source": "yfinance_validation"
+    },
+    "CPB": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:27.942156",
+      "source": "yfinance_validation"
+    },
+    "CFG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:28.028727",
+      "source": "yfinance_validation"
+    },
+    "GL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:28.179459",
+      "source": "yfinance_validation"
+    },
+    "ICE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:28.335444",
+      "source": "yfinance_validation"
+    },
+    "SLB": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:28.457189",
+      "source": "yfinance_validation"
+    },
+    "ASML.AS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:28.562907",
+      "source": "yfinance_validation"
+    },
+    "PCG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:28.728718",
+      "source": "yfinance_validation"
+    },
+    "GFS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:28.909072",
+      "source": "yfinance_validation"
+    },
+    "ALV.DE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:29.031933",
+      "source": "yfinance_validation"
+    },
+    "ETR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:29.179659",
+      "source": "yfinance_validation"
+    },
+    "ABNB": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:29.299682",
+      "source": "yfinance_validation"
+    },
+    "NOC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:29.468279",
+      "source": "yfinance_validation"
+    },
+    "NTRS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:29.595748",
+      "source": "yfinance_validation"
+    },
+    "SIT.MC": {
+      "valid": false,
+      "last_check": "2025-07-15T14:24:30.640789",
+      "source": "yfinance_validation"
+    },
+    "KH": {
+      "valid": false,
+      "last_check": "2025-07-15T14:24:31.369832",
+      "source": "yfinance_validation"
+    },
+    "BIIB": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:31.440316",
+      "source": "yfinance_validation"
+    },
+    "LLY": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:31.582250",
+      "source": "yfinance_validation"
+    },
+    "MNST": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:31.659862",
+      "source": "yfinance_validation"
+    },
+    "CTAS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:31.776873",
+      "source": "yfinance_validation"
+    },
+    "DXCM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:31.918728",
+      "source": "yfinance_validation"
+    },
+    "HPE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:32.013381",
+      "source": "yfinance_validation"
+    },
+    "CDW": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:32.105053",
+      "source": "yfinance_validation"
+    },
+    "FCX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:32.218868",
+      "source": "yfinance_validation"
+    },
+    "RVTY": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:32.416868",
+      "source": "yfinance_validation"
+    },
+    "CF": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:32.521630",
+      "source": "yfinance_validation"
+    },
+    "EA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:32.603326",
+      "source": "yfinance_validation"
+    },
+    "BP.L": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:32.728166",
+      "source": "yfinance_validation"
+    },
+    "LUV": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:32.861654",
+      "source": "yfinance_validation"
+    },
+    "FANG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:33.029396",
+      "source": "yfinance_validation"
+    },
+    "TD(": {
+      "valid": false,
+      "last_check": "2025-07-15T14:24:34.503310",
+      "source": "yfinance_validation"
+    },
+    "TT": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:34.624524",
+      "source": "yfinance_validation"
+    },
+    "STT": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:34.772496",
+      "source": "yfinance_validation"
+    },
+    "LEN": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:34.978226",
+      "source": "yfinance_validation"
+    },
+    "MCK": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:35.091788",
+      "source": "yfinance_validation"
+    },
+    "TMO": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:35.196198",
+      "source": "yfinance_validation"
+    },
+    "FICO": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:35.328255",
+      "source": "yfinance_validation"
+    },
+    "EXR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:35.428885",
+      "source": "yfinance_validation"
+    },
+    "TRV": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:35.553258",
+      "source": "yfinance_validation"
+    },
+    "HAS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:35.749224",
+      "source": "yfinance_validation"
+    },
+    "CPAY": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:35.817381",
+      "source": "yfinance_validation"
+    },
+    "CVX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:36.087653",
+      "source": "yfinance_validation"
+    },
+    "WMB": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:36.282725",
+      "source": "yfinance_validation"
+    },
+    "CSGP": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:36.364209",
+      "source": "yfinance_validation"
+    },
+    "OKE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:36.471872",
+      "source": "yfinance_validation"
+    },
+    "NEM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:36.605918",
+      "source": "yfinance_validation"
+    },
+    "LII": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:36.718532",
+      "source": "yfinance_validation"
+    },
+    "HOLX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:36.791832",
+      "source": "yfinance_validation"
+    },
+    "OTIS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:36.864342",
+      "source": "yfinance_validation"
+    },
+    "P": {
+      "valid": false,
+      "last_check": "2025-07-15T14:24:37.472442",
+      "source": "yfinance_validation"
+    },
+    "MKC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:37.594119",
+      "source": "yfinance_validation"
+    },
+    "MCHP": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:37.691364",
+      "source": "yfinance_validation"
+    },
+    "LHX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:37.831731",
+      "source": "yfinance_validation"
+    },
+    "C": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:38.385535",
+      "source": "yfinance_validation"
+    },
+    "GDDY": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:38.467815",
+      "source": "yfinance_validation"
+    },
+    "B": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:39.107296",
+      "source": "yfinance_validation"
+    },
+    "ASME.DE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:39.217458",
+      "source": "yfinance_validation"
+    },
+    "KO": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:39.377569",
+      "source": "yfinance_validation"
+    },
+    "XE": {
+      "valid": false,
+      "last_check": "2025-07-15T14:24:39.948174",
+      "source": "yfinance_validation"
+    },
+    "VTRS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:40.134623",
+      "source": "yfinance_validation"
+    },
+    "RS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:40.814505",
+      "source": "yfinance_validation"
+    },
+    "R": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:41.516700",
+      "source": "yfinance_validation"
+    },
+    "TJX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:41.629506",
+      "source": "yfinance_validation"
+    },
+    "REGN": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:41.703561",
+      "source": "yfinance_validation"
+    },
+    "OXY": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:41.823165",
+      "source": "yfinance_validation"
+    },
+    "ROK": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:41.935486",
+      "source": "yfinance_validation"
+    },
+    "FOX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:42.048241",
+      "source": "yfinance_validation"
+    },
+    "SRE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:42.170576",
+      "source": "yfinance_validation"
+    },
+    "JCI": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:42.301002",
+      "source": "yfinance_validation"
+    },
+    "ED": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:42.449058",
+      "source": "yfinance_validation"
+    },
+    "V": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:42.543430",
+      "source": "yfinance_validation"
+    },
+    "SO": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:42.711835",
+      "source": "yfinance_validation"
+    },
+    "ECL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:42.824517",
+      "source": "yfinance_validation"
+    },
+    "VZ": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:42.955183",
+      "source": "yfinance_validation"
+    },
+    "TEAM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:43.054508",
+      "source": "yfinance_validation"
+    },
+    "CEP": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:43.647552",
+      "source": "yfinance_validation"
+    },
+    "NWSA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:44.200795",
+      "source": "yfinance_validation"
+    },
+    "DHR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:44.317365",
+      "source": "yfinance_validation"
+    },
+    "MA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:44.411131",
+      "source": "yfinance_validation"
+    },
+    "PTC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:45.015691",
+      "source": "yfinance_validation"
+    },
+    "IEX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:45.127606",
+      "source": "yfinance_validation"
+    },
+    "ARE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:45.228449",
+      "source": "yfinance_validation"
+    },
+    "LDOS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:45.318765",
+      "source": "yfinance_validation"
+    },
+    "MCO": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:45.421393",
+      "source": "yfinance_validation"
+    },
+    "GS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:45.531639",
+      "source": "yfinance_validation"
+    },
+    "ALGN": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:45.674794",
+      "source": "yfinance_validation"
+    },
+    "CRE.MC": {
+      "valid": false,
+      "last_check": "2025-07-15T14:24:46.489544",
+      "source": "yfinance_validation"
+    },
+    "CD": {
+      "valid": false,
+      "last_check": "2025-07-15T14:24:47.476360",
+      "source": "yfinance_validation"
+    },
+    "EXE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:47.560273",
+      "source": "yfinance_validation"
+    },
+    "XEL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:47.730919",
+      "source": "yfinance_validation"
+    },
+    "TPL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:47.858415",
+      "source": "yfinance_validation"
+    },
+    "JBL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:47.959595",
+      "source": "yfinance_validation"
+    },
+    "APTV": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:48.044297",
+      "source": "yfinance_validation"
+    },
+    "BAX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:48.162615",
+      "source": "yfinance_validation"
+    },
+    "MCD": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:48.393339",
+      "source": "yfinance_validation"
+    },
+    "STZ": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:48.478494",
+      "source": "yfinance_validation"
+    },
+    "STLD": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:48.572596",
+      "source": "yfinance_validation"
+    },
+    "MRK": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:48.716648",
+      "source": "yfinance_validation"
+    },
+    "HUM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:48.849546",
+      "source": "yfinance_validation"
+    },
+    "RP": {
+      "valid": false,
+      "last_check": "2025-07-15T14:24:49.805039",
+      "source": "yfinance_validation"
+    },
+    "XYL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:49.926451",
+      "source": "yfinance_validation"
+    },
+    "WDC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:50.025852",
+      "source": "yfinance_validation"
+    },
+    "KIM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:50.146295",
+      "source": "yfinance_validation"
+    },
+    "CARR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:50.230006",
+      "source": "yfinance_validation"
+    },
+    "MUV2.DE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:50.760285",
+      "source": "yfinance_validation"
+    },
+    "DD": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:51.029681",
+      "source": "yfinance_validation"
+    },
+    "SW": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:51.108186",
+      "source": "yfinance_validation"
+    },
+    "HPQ": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:51.260430",
+      "source": "yfinance_validation"
+    },
+    "UHS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:51.374670",
+      "source": "yfinance_validation"
+    },
+    "STX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:51.538880",
+      "source": "yfinance_validation"
+    },
+    "EIX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:51.691207",
+      "source": "yfinance_validation"
+    },
+    "BRO": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:51.823601",
+      "source": "yfinance_validation"
+    },
+    "DVN": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:51.933522",
+      "source": "yfinance_validation"
+    },
+    "CHRW": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:52.036057",
+      "source": "yfinance_validation"
+    },
+    "OMC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:52.188491",
+      "source": "yfinance_validation"
+    },
+    "DLTR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:52.265879",
+      "source": "yfinance_validation"
+    },
+    "WAB": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:52.415250",
+      "source": "yfinance_validation"
+    },
+    "ZBRA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:52.493596",
+      "source": "yfinance_validation"
+    },
+    "EVO.MC": {
+      "valid": false,
+      "last_check": "2025-07-15T14:24:53.124605",
+      "source": "yfinance_validation"
+    },
+    "TEL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:53.236145",
+      "source": "yfinance_validation"
+    },
+    "LOW": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:53.366359",
+      "source": "yfinance_validation"
+    },
+    "IQV": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:53.544543",
+      "source": "yfinance_validation"
+    },
+    "SNA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:53.699481",
+      "source": "yfinance_validation"
+    },
+    "ABT": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:53.852757",
+      "source": "yfinance_validation"
+    },
+    "CI": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:54.012427",
+      "source": "yfinance_validation"
+    },
+    "MLM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:54.129406",
+      "source": "yfinance_validation"
+    },
+    "AIR.PA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:54.237609",
+      "source": "yfinance_validation"
+    },
+    "DELL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:54.311980",
+      "source": "yfinance_validation"
+    },
+    "F": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:54.876738",
+      "source": "yfinance_validation"
+    },
+    "CHD": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:54.988257",
+      "source": "yfinance_validation"
+    },
+    "AIG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:55.110721",
+      "source": "yfinance_validation"
+    },
+    "WMT": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:55.248360",
+      "source": "yfinance_validation"
+    },
+    "KR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:55.395752",
+      "source": "yfinance_validation"
+    },
+    "REL.MC": {
+      "valid": false,
+      "last_check": "2025-07-15T14:24:55.976359",
+      "source": "yfinance_validation"
+    },
+    "SCHW": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:56.096666",
+      "source": "yfinance_validation"
+    },
+    "FDX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:56.229518",
+      "source": "yfinance_validation"
+    },
+    "BEN": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:56.354677",
+      "source": "yfinance_validation"
+    },
+    "TFC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:56.474291",
+      "source": "yfinance_validation"
+    },
+    "KDP": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:57.004505",
+      "source": "yfinance_validation"
+    },
+    "WM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:57.123893",
+      "source": "yfinance_validation"
+    },
+    "PWR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:57.204410",
+      "source": "yfinance_validation"
+    },
+    "MO": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:57.404507",
+      "source": "yfinance_validation"
+    },
+    "FTV": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:57.491181",
+      "source": "yfinance_validation"
+    },
+    "TTD": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:57.620596",
+      "source": "yfinance_validation"
+    },
+    "APA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:57.737351",
+      "source": "yfinance_validation"
+    },
+    "D": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:57.851128",
+      "source": "yfinance_validation"
+    },
+    "FITB": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:57.969987",
+      "source": "yfinance_validation"
+    },
+    "AES": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:58.089029",
+      "source": "yfinance_validation"
+    },
+    "BALL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:58.211008",
+      "source": "yfinance_validation"
+    },
+    "BBY": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:58.304506",
+      "source": "yfinance_validation"
+    },
+    "COM.MC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:58.376329",
+      "source": "yfinance_validation"
+    },
+    "ALLE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:58.469841",
+      "source": "yfinance_validation"
+    },
+    "GRMN": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:58.559290",
+      "source": "yfinance_validation"
+    },
+    "IT": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:58.628312",
+      "source": "yfinance_validation"
+    },
+    "MAA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:24:58.741937",
+      "source": "yfinance_validation"
+    },
+    "NS": {
+      "valid": false,
+      "last_check": "2025-07-15T14:24:59.740611",
+      "source": "yfinance_validation"
+    },
+    "AE": {
+      "valid": false,
+      "last_check": "2025-07-15T14:25:00.820902",
+      "source": "yfinance_validation"
+    },
+    "VICI": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:00.902568",
+      "source": "yfinance_validation"
+    },
+    "GWW": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:01.021812",
+      "source": "yfinance_validation"
+    },
+    "BMY": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:01.164311",
+      "source": "yfinance_validation"
+    },
+    "AEP": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:01.764659",
+      "source": "yfinance_validation"
+    },
+    "WBD": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:02.475372",
+      "source": "yfinance_validation"
+    },
+    "CRM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:02.546805",
+      "source": "yfinance_validation"
+    },
+    "SWK": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:02.672468",
+      "source": "yfinance_validation"
+    },
+    "Z": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:03.472663",
+      "source": "yfinance_validation"
+    },
+    "DUK": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:03.648826",
+      "source": "yfinance_validation"
+    },
+    "PG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:03.820015",
+      "source": "yfinance_validation"
+    },
+    "GEHC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:03.931794",
+      "source": "yfinance_validation"
+    },
+    "BOL.MC": {
+      "valid": false,
+      "last_check": "2025-07-15T14:25:04.625636",
+      "source": "yfinance_validation"
+    },
+    "BH": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:05.205794",
+      "source": "yfinance_validation"
+    },
+    "LA": {
+      "valid": false,
+      "last_check": "2025-07-15T14:25:05.831670",
+      "source": "yfinance_validation"
+    },
+    "SAN.PA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:05.968431",
+      "source": "yfinance_validation"
+    },
+    "T": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:06.097049",
+      "source": "yfinance_validation"
+    },
+    "IL": {
+      "valid": false,
+      "last_check": "2025-07-15T14:25:06.741913",
+      "source": "yfinance_validation"
+    },
+    "SWKS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:06.847767",
+      "source": "yfinance_validation"
+    },
+    "ENPH": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:06.939341",
+      "source": "yfinance_validation"
+    },
+    "HCA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:07.038402",
+      "source": "yfinance_validation"
+    },
+    "ALB": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:07.149652",
+      "source": "yfinance_validation"
+    },
+    "IR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:07.247154",
+      "source": "yfinance_validation"
+    },
+    "EDI.MC": {
+      "valid": false,
+      "last_check": "2025-07-15T14:25:07.848714",
+      "source": "yfinance_validation"
+    },
+    "CMG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:07.993448",
+      "source": "yfinance_validation"
+    },
+    "GNRC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:08.076671",
+      "source": "yfinance_validation"
+    },
+    "MET": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:08.179537",
+      "source": "yfinance_validation"
+    },
+    "DTE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:08.350022",
+      "source": "yfinance_validation"
+    },
+    "JNJ": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:08.487534",
+      "source": "yfinance_validation"
+    },
+    "BDX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:08.613819",
+      "source": "yfinance_validation"
+    },
+    "LNT": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:08.742802",
+      "source": "yfinance_validation"
+    },
+    "BAC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:08.900370",
+      "source": "yfinance_validation"
+    },
+    "ATO": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:09.048558",
+      "source": "yfinance_validation"
+    },
+    "MPWR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:09.153333",
+      "source": "yfinance_validation"
+    },
+    "CCEP": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:09.463354",
+      "source": "yfinance_validation"
+    },
+    "TER": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:09.551283",
+      "source": "yfinance_validation"
+    },
+    "TSN": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:10.085010",
+      "source": "yfinance_validation"
+    },
+    "ULTA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:10.170567",
+      "source": "yfinance_validation"
+    },
+    "NRG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:10.274963",
+      "source": "yfinance_validation"
+    },
+    "LVS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:10.366603",
+      "source": "yfinance_validation"
+    },
+    "DG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:10.463842",
+      "source": "yfinance_validation"
+    },
+    "PFG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:10.560189",
+      "source": "yfinance_validation"
+    },
+    "YUM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:10.679990",
+      "source": "yfinance_validation"
+    },
+    "NUE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:10.795639",
+      "source": "yfinance_validation"
+    },
+    "AEE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:10.898887",
+      "source": "yfinance_validation"
+    },
+    "CB": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:11.028455",
+      "source": "yfinance_validation"
+    },
+    "HD": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:11.153520",
+      "source": "yfinance_validation"
+    },
+    "CMI": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:11.302807",
+      "source": "yfinance_validation"
+    },
+    "CAH": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:11.430300",
+      "source": "yfinance_validation"
+    },
+    "ACN": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:11.530134",
+      "source": "yfinance_validation"
+    },
+    "MSI": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:11.717527",
+      "source": "yfinance_validation"
+    },
+    "SJM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:11.842872",
+      "source": "yfinance_validation"
+    },
+    "GD": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:12.032757",
+      "source": "yfinance_validation"
+    },
+    "SIE.DE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:12.207639",
+      "source": "yfinance_validation"
+    },
+    "WBA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:12.338459",
+      "source": "yfinance_validation"
+    },
+    "PEG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:12.503319",
+      "source": "yfinance_validation"
+    },
+    "TSCO": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:12.618078",
+      "source": "yfinance_validation"
+    },
+    "FIS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:12.713525",
+      "source": "yfinance_validation"
+    },
+    "CHTR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:12.798251",
+      "source": "yfinance_validation"
+    },
+    "NWS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:12.877566",
+      "source": "yfinance_validation"
+    },
+    "IRM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:12.969697",
+      "source": "yfinance_validation"
+    },
+    "WY": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:13.120877",
+      "source": "yfinance_validation"
+    },
+    "AZN.L": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:13.287279",
+      "source": "yfinance_validation"
+    },
+    "APH": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:13.391807",
+      "source": "yfinance_validation"
+    },
+    "PCAR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:13.510219",
+      "source": "yfinance_validation"
+    },
+    "AZO": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:13.600203",
+      "source": "yfinance_validation"
+    },
+    "MPC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:13.700332",
+      "source": "yfinance_validation"
+    },
+    "MTCH": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:13.792292",
+      "source": "yfinance_validation"
+    },
+    "PPL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:13.927110",
+      "source": "yfinance_validation"
+    },
+    "BARC.L": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:14.051477",
+      "source": "yfinance_validation"
+    },
+    "DPZ": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:14.624762",
+      "source": "yfinance_validation"
+    },
+    "AMT": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:14.708150",
+      "source": "yfinance_validation"
+    },
+    "PSA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:14.850338",
+      "source": "yfinance_validation"
+    },
+    "BF.B": {
+      "valid": false,
+      "last_check": "2025-07-15T14:25:14.996680",
+      "source": "yfinance_validation"
+    },
+    "GH": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:15.631408",
+      "source": "yfinance_validation"
+    },
+    "K": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:15.782067",
+      "source": "yfinance_validation"
+    },
+    "NEE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:15.916389",
+      "source": "yfinance_validation"
+    },
+    "BG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:16.016337",
+      "source": "yfinance_validation"
+    },
+    "RSG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:16.123560",
+      "source": "yfinance_validation"
+    },
+    "DOW": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:16.216698",
+      "source": "yfinance_validation"
+    },
+    "A": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:17.005731",
+      "source": "yfinance_validation"
+    },
+    "LYV": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:17.080899",
+      "source": "yfinance_validation"
+    },
+    "ROP": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:17.206832",
+      "source": "yfinance_validation"
+    },
+    "FAST": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:17.404830",
+      "source": "yfinance_validation"
+    },
+    "MTD": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:17.482608",
+      "source": "yfinance_validation"
+    },
+    "AMCR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:17.579149",
+      "source": "yfinance_validation"
+    },
+    "GEN": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:17.737745",
+      "source": "yfinance_validation"
+    },
+    "VMC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:17.864375",
+      "source": "yfinance_validation"
+    },
+    "COF": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:18.011971",
+      "source": "yfinance_validation"
+    },
+    "APO": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:18.106256",
+      "source": "yfinance_validation"
+    },
+    "BT-A.L": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:18.228721",
+      "source": "yfinance_validation"
+    },
+    "NSC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:18.394297",
+      "source": "yfinance_validation"
+    },
+    "EG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:18.516881",
+      "source": "yfinance_validation"
+    },
+    "ORLY": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:19.061831",
+      "source": "yfinance_validation"
+    },
+    "AMP": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:19.258224",
+      "source": "yfinance_validation"
+    },
+    "URI": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:19.422263",
+      "source": "yfinance_validation"
+    },
+    "CVS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:19.585029",
+      "source": "yfinance_validation"
+    },
+    "VTR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:19.722875",
+      "source": "yfinance_validation"
+    },
+    "MS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:19.891806",
+      "source": "yfinance_validation"
+    },
+    "HII": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:19.985413",
+      "source": "yfinance_validation"
+    },
+    "BR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:20.088842",
+      "source": "yfinance_validation"
+    },
+    "HAL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:20.253057",
+      "source": "yfinance_validation"
+    },
+    "JKHY": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:20.361176",
+      "source": "yfinance_validation"
+    },
+    "PH": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:20.479909",
+      "source": "yfinance_validation"
+    },
+    "TROW": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:20.631345",
+      "source": "yfinance_validation"
+    },
+    "EL.PA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:20.804703",
+      "source": "yfinance_validation"
+    },
+    "TTE.PA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:20.919532",
+      "source": "yfinance_validation"
+    },
+    "ITW": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:21.556018",
+      "source": "yfinance_validation"
+    },
+    "FFIV": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:21.635470",
+      "source": "yfinance_validation"
+    },
+    "TTWO": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:21.710372",
+      "source": "yfinance_validation"
+    },
+    "NVR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:21.793563",
+      "source": "yfinance_validation"
+    },
+    "DAL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:21.875671",
+      "source": "yfinance_validation"
+    },
+    "MKTX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:21.978077",
+      "source": "yfinance_validation"
+    },
+    "PAYC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:22.129856",
+      "source": "yfinance_validation"
+    },
+    "VOW3.DE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:22.438298",
+      "source": "yfinance_validation"
+    },
+    "LKQ": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:22.510806",
+      "source": "yfinance_validation"
+    },
+    "MT": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:23.226343",
+      "source": "yfinance_validation"
+    },
+    "AIZ": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:23.335386",
+      "source": "yfinance_validation"
+    },
+    "TPR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:23.441176",
+      "source": "yfinance_validation"
+    },
+    "HST": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:23.570333",
+      "source": "yfinance_validation"
+    },
+    "SYY": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:23.692645",
+      "source": "yfinance_validation"
+    },
+    "WSM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:23.794447",
+      "source": "yfinance_validation"
+    },
+    "NTAP": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:23.894409",
+      "source": "yfinance_validation"
+    },
+    "ROST": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:24.003799",
+      "source": "yfinance_validation"
+    },
+    "UDR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:24.518399",
+      "source": "yfinance_validation"
+    },
+    "PYPL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:24.600294",
+      "source": "yfinance_validation"
+    },
+    "CBOE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:24.685324",
+      "source": "yfinance_validation"
+    },
+    "CZR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:24.757617",
+      "source": "yfinance_validation"
+    },
+    "BMW.DE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:25.315381",
+      "source": "yfinance_validation"
+    },
+    "BAS.DE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:25.430304",
+      "source": "yfinance_validation"
+    },
+    "COIN": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:25.532669",
+      "source": "yfinance_validation"
+    },
+    "BNP.PA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:25.666838",
+      "source": "yfinance_validation"
+    },
+    "DOC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:25.777685",
+      "source": "yfinance_validation"
+    },
+    "KEY": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:25.883383",
+      "source": "yfinance_validation"
+    },
+    "ADSK": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:25.969034",
+      "source": "yfinance_validation"
+    },
+    "EFX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:26.125384",
+      "source": "yfinance_validation"
+    },
+    "TAP": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:26.231193",
+      "source": "yfinance_validation"
+    },
+    "BA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:26.357141",
+      "source": "yfinance_validation"
+    },
+    "GE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:26.556475",
+      "source": "yfinance_validation"
+    },
+    "NDSN": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:26.725239",
+      "source": "yfinance_validation"
+    },
+    "W": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:27.323898",
+      "source": "yfinance_validation"
+    },
+    "BRK.B": {
+      "valid": false,
+      "last_check": "2025-07-15T14:25:27.884789",
+      "source": "yfinance_validation"
+    },
+    "ANSS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:27.970936",
+      "source": "yfinance_validation"
+    },
+    "GPN": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:28.072357",
+      "source": "yfinance_validation"
+    },
+    "KHC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:28.173672",
+      "source": "yfinance_validation"
+    },
+    "NI": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:28.321453",
+      "source": "yfinance_validation"
+    },
+    "STE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:28.429366",
+      "source": "yfinance_validation"
+    },
+    "DDOG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:28.504490",
+      "source": "yfinance_validation"
+    },
+    "ELV": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:28.660242",
+      "source": "yfinance_validation"
+    },
+    "CTRA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:28.784439",
+      "source": "yfinance_validation"
+    },
+    "MC.PA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:28.927619",
+      "source": "yfinance_validation"
+    },
+    "TRMB": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:29.030738",
+      "source": "yfinance_validation"
+    },
+    "G": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:29.846058",
+      "source": "yfinance_validation"
+    },
+    "PFE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:30.426546",
+      "source": "yfinance_validation"
+    },
+    "LYB": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:30.512601",
+      "source": "yfinance_validation"
+    },
+    "AVB": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:30.614158",
+      "source": "yfinance_validation"
+    },
+    "EMR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:31.183424",
+      "source": "yfinance_validation"
+    },
+    "VOD.L": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:31.368170",
+      "source": "yfinance_validation"
+    },
+    "KMI": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:31.468936",
+      "source": "yfinance_validation"
+    },
+    "NCLH": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:31.554714",
+      "source": "yfinance_validation"
+    },
+    "TXT": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:31.719011",
+      "source": "yfinance_validation"
+    },
+    "RL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:31.820674",
+      "source": "yfinance_validation"
+    },
+    "COO": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:31.936392",
+      "source": "yfinance_validation"
+    },
+    "J": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:32.019797",
+      "source": "yfinance_validation"
+    },
+    "EMN": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:32.133524",
+      "source": "yfinance_validation"
+    },
+    "AON": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:32.268689",
+      "source": "yfinance_validation"
+    },
+    "AXP": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:32.423999",
+      "source": "yfinance_validation"
+    },
+    "S": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:33.099097",
+      "source": "yfinance_validation"
+    },
+    "REG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:33.280030",
+      "source": "yfinance_validation"
+    },
+    "OR.PA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:33.396626",
+      "source": "yfinance_validation"
+    },
+    "DECK": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:33.469192",
+      "source": "yfinance_validation"
+    },
+    "ANET": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:33.632450",
+      "source": "yfinance_validation"
+    },
+    "DE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:33.773563",
+      "source": "yfinance_validation"
+    },
+    "BAS.MC": {
+      "valid": false,
+      "last_check": "2025-07-15T14:25:34.345122",
+      "source": "yfinance_validation"
+    },
+    "NKE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:34.468139",
+      "source": "yfinance_validation"
+    },
+    "POOL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:34.562512",
+      "source": "yfinance_validation"
+    },
+    "MHK": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:34.646972",
+      "source": "yfinance_validation"
+    },
+    "WDAY": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:34.745038",
+      "source": "yfinance_validation"
+    },
+    "MAR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:34.874047",
+      "source": "yfinance_validation"
+    },
+    "CTVA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:34.971099",
+      "source": "yfinance_validation"
+    },
+    "DIS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:35.143006",
+      "source": "yfinance_validation"
+    },
+    "EXC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:35.304260",
+      "source": "yfinance_validation"
+    },
+    "ACGL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:35.380251",
+      "source": "yfinance_validation"
+    },
+    "CLX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:35.503828",
+      "source": "yfinance_validation"
+    },
+    "CDI.PA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:35.635396",
+      "source": "yfinance_validation"
+    },
+    "HSY": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:35.759825",
+      "source": "yfinance_validation"
+    },
+    "FE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:35.859439",
+      "source": "yfinance_validation"
+    },
+    "EVRG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:36.008887",
+      "source": "yfinance_validation"
+    },
+    "CAT": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:36.176586",
+      "source": "yfinance_validation"
+    },
+    "GPC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:36.318973",
+      "source": "yfinance_validation"
+    },
+    "CCI": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:36.415993",
+      "source": "yfinance_validation"
+    },
+    "CSX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:36.560160",
+      "source": "yfinance_validation"
+    },
+    "TKO": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:36.663486",
+      "source": "yfinance_validation"
+    },
+    "CDNS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:36.739458",
+      "source": "yfinance_validation"
+    },
+    "HRL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:36.914529",
+      "source": "yfinance_validation"
+    },
+    "TYL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:36.987316",
+      "source": "yfinance_validation"
+    },
+    "BXP": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:37.099038",
+      "source": "yfinance_validation"
+    },
+    "KEYS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:37.181443",
+      "source": "yfinance_validation"
+    },
+    "GEV": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:37.253651",
+      "source": "yfinance_validation"
+    },
+    "MI": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:37.926120",
+      "source": "yfinance_validation"
+    },
+    "MDT": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:38.102415",
+      "source": "yfinance_validation"
+    },
+    "TI": {
+      "valid": false,
+      "last_check": "2025-07-15T14:25:39.099972",
+      "source": "yfinance_validation"
+    },
+    "RCL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:39.225773",
+      "source": "yfinance_validation"
+    },
+    "EW": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:39.314788",
+      "source": "yfinance_validation"
+    },
+    "LMT": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:39.473645",
+      "source": "yfinance_validation"
+    },
+    "CPRT": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:39.557341",
+      "source": "yfinance_validation"
+    },
+    "ALL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:39.695940",
+      "source": "yfinance_validation"
+    },
+    "PSX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:39.823555",
+      "source": "yfinance_validation"
+    },
+    "GM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:39.928286",
+      "source": "yfinance_validation"
+    },
+    "L": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:40.075666",
+      "source": "yfinance_validation"
+    },
+    "ULVR.L": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:40.226986",
+      "source": "yfinance_validation"
+    },
+    "WST": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:40.466719",
+      "source": "yfinance_validation"
+    },
+    "NOW": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:40.536739",
+      "source": "yfinance_validation"
+    },
+    "UBER": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:40.692358",
+      "source": "yfinance_validation"
+    },
+    "MOH": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:40.764771",
+      "source": "yfinance_validation"
+    },
+    "JPM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:41.444547",
+      "source": "yfinance_validation"
+    },
+    "UNH": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:41.561202",
+      "source": "yfinance_validation"
+    },
+    "O": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:41.681011",
+      "source": "yfinance_validation"
+    },
+    "WAT": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:41.767943",
+      "source": "yfinance_validation"
+    },
+    "HBAN": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:41.909552",
+      "source": "yfinance_validation"
+    },
+    "INVH": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:41.990091",
+      "source": "yfinance_validation"
+    },
+    "ZBH": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:42.076674",
+      "source": "yfinance_validation"
+    },
+    "BX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:42.161337",
+      "source": "yfinance_validation"
+    },
+    "IPG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:42.306618",
+      "source": "yfinance_validation"
+    },
+    "MAS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:42.456581",
+      "source": "yfinance_validation"
+    },
+    "SYK": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:42.588324",
+      "source": "yfinance_validation"
+    },
+    "CME": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:42.696514",
+      "source": "yfinance_validation"
+    },
+    "ZTS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:42.782176",
+      "source": "yfinance_validation"
+    },
+    "UPS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:42.885000",
+      "source": "yfinance_validation"
+    },
+    "TECH": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:42.988291",
+      "source": "yfinance_validation"
+    },
+    "AXON": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:43.061869",
+      "source": "yfinance_validation"
+    },
+    "ROL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:43.171449",
+      "source": "yfinance_validation"
+    },
+    "MB": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:43.808415",
+      "source": "yfinance_validation"
+    },
+    "LULU": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:43.880977",
+      "source": "yfinance_validation"
+    },
+    "HSBA.L": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:44.011201",
+      "source": "yfinance_validation"
+    },
+    "OA": {
+      "valid": false,
+      "last_check": "2025-07-15T14:25:44.556294",
+      "source": "yfinance_validation"
+    },
+    "EQT": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:44.734159",
+      "source": "yfinance_validation"
+    },
+    "PHM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:44.856805",
+      "source": "yfinance_validation"
+    },
+    "CMS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:45.001833",
+      "source": "yfinance_validation"
+    },
+    "WELL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:45.154508",
+      "source": "yfinance_validation"
+    },
+    "AVY": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:45.310844",
+      "source": "yfinance_validation"
+    },
+    "PNR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:45.445922",
+      "source": "yfinance_validation"
+    },
+    "MRNA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:45.519657",
+      "source": "yfinance_validation"
+    },
+    "MRVL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:45.704713",
+      "source": "yfinance_validation"
+    },
+    "DRI": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:45.809894",
+      "source": "yfinance_validation"
+    },
+    "KVUE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:45.887410",
+      "source": "yfinance_validation"
+    },
+    "AJG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:46.067329",
+      "source": "yfinance_validation"
+    },
+    "SPGI": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:46.215271",
+      "source": "yfinance_validation"
+    },
+    "ISI.MC": {
+      "valid": false,
+      "last_check": "2025-07-15T14:25:46.847405",
+      "source": "yfinance_validation"
+    },
+    "SBAC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:46.928167",
+      "source": "yfinance_validation"
+    },
+    "ES": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:47.137958",
+      "source": "yfinance_validation"
+    },
+    "FI": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:47.214345",
+      "source": "yfinance_validation"
+    },
+    "SPG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:47.384934",
+      "source": "yfinance_validation"
+    },
+    "HLT": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:47.474463",
+      "source": "yfinance_validation"
+    },
+    "PGR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:47.999593",
+      "source": "yfinance_validation"
+    },
+    "EQIX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:48.081426",
+      "source": "yfinance_validation"
+    },
+    "CNC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:48.152352",
+      "source": "yfinance_validation"
+    },
+    "CTSH": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:48.244140",
+      "source": "yfinance_validation"
+    },
+    "EBAY": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:48.398735",
+      "source": "yfinance_validation"
+    },
+    "HSIC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:48.477841",
+      "source": "yfinance_validation"
+    },
+    "LW": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:48.581276",
+      "source": "yfinance_validation"
+    },
+    "MMC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:48.722331",
+      "source": "yfinance_validation"
+    },
+    "PPG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:48.864835",
+      "source": "yfinance_validation"
+    },
+    "FSLR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:48.944475",
+      "source": "yfinance_validation"
+    },
+    "PNW": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:49.070344",
+      "source": "yfinance_validation"
+    },
+    "LH": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:49.187345",
+      "source": "yfinance_validation"
+    },
+    "PLD": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:49.323490",
+      "source": "yfinance_validation"
+    },
+    "VLO": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:49.447395",
+      "source": "yfinance_validation"
+    },
+    "MMM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:49.609978",
+      "source": "yfinance_validation"
+    },
+    "CNP": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:49.766559",
+      "source": "yfinance_validation"
+    },
+    "ETN": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:49.923686",
+      "source": "yfinance_validation"
+    },
+    "UAL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:49.992918",
+      "source": "yfinance_validation"
+    },
+    "ON": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:50.061606",
+      "source": "yfinance_validation"
+    },
+    "RF": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:50.174982",
+      "source": "yfinance_validation"
+    },
+    "PODD": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:50.247987",
+      "source": "yfinance_validation"
+    },
+    "COP": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:50.379512",
+      "source": "yfinance_validation"
+    },
+    "RMS.PA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:50.499201",
+      "source": "yfinance_validation"
+    },
+    "KKR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:50.986209",
+      "source": "yfinance_validation"
+    },
+    "TGT": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:51.125711",
+      "source": "yfinance_validation"
+    },
+    "BLK": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:51.227526",
+      "source": "yfinance_validation"
+    },
+    "PRU": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:51.338930",
+      "source": "yfinance_validation"
+    },
+    "WTW": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:51.440862",
+      "source": "yfinance_validation"
+    },
+    "CL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:51.574737",
+      "source": "yfinance_validation"
+    },
+    "HUBB": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:51.703693",
+      "source": "yfinance_validation"
+    },
+    "IBM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:51.923244",
+      "source": "yfinance_validation"
+    },
+    "CCL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:52.037687",
+      "source": "yfinance_validation"
+    },
+    "SHW": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:52.157405",
+      "source": "yfinance_validation"
+    },
+    "FDS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:52.288674",
+      "source": "yfinance_validation"
+    },
+    "TRGP": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:52.390564",
+      "source": "yfinance_validation"
+    },
+    "PKG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:52.488502",
+      "source": "yfinance_validation"
+    },
+    "CPT": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:52.613650",
+      "source": "yfinance_validation"
+    },
+    "MGM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:52.723697",
+      "source": "yfinance_validation"
+    },
+    "SYF": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:52.809877",
+      "source": "yfinance_validation"
+    },
+    "EL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:52.916201",
+      "source": "yfinance_validation"
+    },
+    "BLDR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:53.002089",
+      "source": "yfinance_validation"
+    },
+    "DOV": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:53.627393",
+      "source": "yfinance_validation"
+    },
+    "FRT": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:53.844851",
+      "source": "yfinance_validation"
+    },
+    "DHI": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:53.960971",
+      "source": "yfinance_validation"
+    },
+    "IDXX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:54.033378",
+      "source": "yfinance_validation"
+    },
+    "ZS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:54.238676",
+      "source": "yfinance_validation"
+    },
+    "EXPD": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:54.362044",
+      "source": "yfinance_validation"
+    },
+    "LLOY.L": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:54.494440",
+      "source": "yfinance_validation"
+    },
+    "GIS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:54.618759",
+      "source": "yfinance_validation"
+    },
+    "WEC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:54.807822",
+      "source": "yfinance_validation"
+    },
+    "AOS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:54.994615",
+      "source": "yfinance_validation"
+    },
+    "MSCI": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:55.086006",
+      "source": "yfinance_validation"
+    },
+    "CAG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:55.219046",
+      "source": "yfinance_validation"
+    },
+    "BK": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:55.356610",
+      "source": "yfinance_validation"
+    },
+    "DLR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:55.454705",
+      "source": "yfinance_validation"
+    },
+    "FOXA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:55.543959",
+      "source": "yfinance_validation"
+    },
+    "MTB": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:55.691106",
+      "source": "yfinance_validation"
+    },
+    "AFL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:56.228670",
+      "source": "yfinance_validation"
+    },
+    "FTNT": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:56.310008",
+      "source": "yfinance_validation"
+    },
+    "NDAQ": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:56.399152",
+      "source": "yfinance_validation"
+    },
+    "SNPS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:56.477375",
+      "source": "yfinance_validation"
+    },
+    "ABBV": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:56.629631",
+      "source": "yfinance_validation"
+    },
+    "ADS.DE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:56.736817",
+      "source": "yfinance_validation"
+    },
+    "HES": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:56.878650",
+      "source": "yfinance_validation"
+    },
+    "INCY": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:57.018522",
+      "source": "yfinance_validation"
+    },
+    "WYNN": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:57.128334",
+      "source": "yfinance_validation"
+    },
+    "EOG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:57.253429",
+      "source": "yfinance_validation"
+    },
+    "AKAM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:57.325479",
+      "source": "yfinance_validation"
+    },
+    "CINF": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:57.464457",
+      "source": "yfinance_validation"
+    },
+    "PM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:57.592610",
+      "source": "yfinance_validation"
+    },
+    "VST": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:57.675874",
+      "source": "yfinance_validation"
+    },
+    "APD": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:58.591097",
+      "source": "yfinance_validation"
+    },
+    "WFC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:58.739419",
+      "source": "yfinance_validation"
+    },
+    "AME": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:58.856440",
+      "source": "yfinance_validation"
+    },
+    "PARA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:59.069989",
+      "source": "yfinance_validation"
+    },
+    "VLTO": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:59.148065",
+      "source": "yfinance_validation"
+    },
+    "USB": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:59.682378",
+      "source": "yfinance_validation"
+    },
+    "NXPI": {
+      "valid": true,
+      "last_check": "2025-07-15T14:25:59.759802",
+      "source": "yfinance_validation"
+    },
+    "E": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:00.365403",
+      "source": "yfinance_validation"
+    },
+    "ADM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:00.487280",
+      "source": "yfinance_validation"
+    },
+    "OPE.MC": {
+      "valid": false,
+      "last_check": "2025-07-15T14:26:01.196351",
+      "source": "yfinance_validation"
+    },
+    "AWK": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:01.312444",
+      "source": "yfinance_validation"
+    },
+    "CBRE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:01.381509",
+      "source": "yfinance_validation"
+    },
+    "PNC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:01.529608",
+      "source": "yfinance_validation"
+    },
+    "BSX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:01.668237",
+      "source": "yfinance_validation"
+    },
+    "PAYX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:01.881104",
+      "source": "yfinance_validation"
+    },
+    "ADP": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:02.013707",
+      "source": "yfinance_validation"
+    },
+    "MOS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:02.221745",
+      "source": "yfinance_validation"
+    },
+    "ESS": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:02.401396",
+      "source": "yfinance_validation"
+    },
+    "KMB": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:02.521611",
+      "source": "yfinance_validation"
+    },
+    "VRSN": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:02.611662",
+      "source": "yfinance_validation"
+    },
+    "CRL": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:02.698029",
+      "source": "yfinance_validation"
+    },
+    "HIG": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:02.802281",
+      "source": "yfinance_validation"
+    },
+    "BKR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:02.934239",
+      "source": "yfinance_validation"
+    },
+    "RTX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:03.104732",
+      "source": "yfinance_validation"
+    },
+    "XOM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:03.272609",
+      "source": "yfinance_validation"
+    },
+    "DVA": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:03.350434",
+      "source": "yfinance_validation"
+    },
+    "HWM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:03.540494",
+      "source": "yfinance_validation"
+    },
+    "DGX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:03.654143",
+      "source": "yfinance_validation"
+    },
+    "EPAM": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:03.728071",
+      "source": "yfinance_validation"
+    },
+    "SMCI": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:03.802393",
+      "source": "yfinance_validation"
+    },
+    "WRB": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:03.918006",
+      "source": "yfinance_validation"
+    },
+    "KMX": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:03.996367",
+      "source": "yfinance_validation"
+    },
+    "SAP.DE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:05.034869",
+      "source": "yfinance_validation"
+    },
+    "RMD": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:07.236691",
+      "source": "yfinance_validation"
+    },
+    "COR": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:07.806447",
+      "source": "yfinance_validation"
+    },
+    "ERIE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:07.980312",
+      "source": "yfinance_validation"
+    },
+    "IVZ": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:08.103089",
+      "source": "yfinance_validation"
+    },
+    "DAY": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:08.204050",
+      "source": "yfinance_validation"
+    },
+    "RJF": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:08.431835",
+      "source": "yfinance_validation"
+    },
+    "IFF": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:08.653442",
+      "source": "yfinance_validation"
+    },
+    "CC": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:09.229385",
+      "source": "yfinance_validation"
+    },
+    "IP": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:09.398989",
+      "source": "yfinance_validation"
+    },
+    "VRSK": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:09.478636",
+      "source": "yfinance_validation"
+    },
+    "SHEL.L": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:09.975741",
+      "source": "yfinance_validation"
+    },
+    "UNP": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:10.115351",
+      "source": "yfinance_validation"
+    },
+    "EXPE": {
+      "valid": true,
+      "last_check": "2025-07-15T14:26:10.215472",
+      "source": "yfinance_validation"
+    }
+  },
+  "metadata": {
+    "last_updated": "2025-07-15T14:38:41.822812"
+  }
+}

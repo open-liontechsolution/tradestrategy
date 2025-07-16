@@ -1,0 +1,12 @@
+#python virtual environment
+venv/
+
+#jupyter
+.ipynb_checkpoints
+
+#timescaledb
+timescaledb_data
+
+#data test
+data/
+historical_data/

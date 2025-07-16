@@ -1,0 +1,39 @@
+{
+  "total_inputs": 9,
+  "symbols_passed_through": 2,
+  "names_resolved": 6,
+  "failed_resolutions": 1,
+  "conversions": [
+    {
+      "name": "Microsoft",
+      "symbol": "MSFT"
+    },
+    {
+      "name": "Tesla, Inc.",
+      "symbol": "TSLA"
+    },
+    {
+      "name": "Apple Inc.",
+      "symbol": "AAPL"
+    },
+    {
+      "name": "Meta Platforms",
+      "symbol": "META"
+    },
+    {
+      "name": "Amazon",
+      "symbol": "AMZN"
+    },
+    {
+      "name": "Alphabet Inc. (Class A)",
+      "symbol": "GOOGL"
+    }
+  ],
+  "failures": [
+    {
+      "input": "INVALID_SYMBOL",
+      "type": "unresolved_name",
+      "reason": "No se pudo encontrar símbolo válido"
+    }
+  ]
+}
