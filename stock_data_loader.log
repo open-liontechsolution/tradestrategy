@@ -1,0 +1,23 @@
+2025-07-18 19:48:00,185 - StockDataLoader - INFO - Conexión exitosa a TimescaleDB
+2025-07-18 19:48:00,186 - StockDataLoader - INFO - Iniciando proceso de carga de datos históricos de acciones
+2025-07-18 19:48:00,307 - StockDataLoader - INFO - Conexión a TimescaleDB establecida correctamente
+2025-07-18 19:48:00,308 - StockDataLoader - ERROR - Archivo de símbolos no encontrado: ../market_data_tools/market_data/market_symbols.txt
+2025-07-18 19:48:00,308 - StockDataLoader - ERROR - No se pudieron cargar los símbolos. Abortando.
+2025-07-18 21:33:44,559 - StockDataLoader - INFO - Conexión exitosa a TimescaleDB
+2025-07-18 21:33:44,563 - StockDataLoader - INFO - Iniciando proceso de carga de datos históricos de acciones
+2025-07-18 21:33:44,683 - StockDataLoader - INFO - Conexión a TimescaleDB establecida correctamente
+2025-07-18 21:33:44,686 - StockDataLoader - INFO - Cargados 3 símbolos desde /home/juanjocop/Documentos/Proyectos/TradeStrategy/market_data_tools/market_data/market_symbols.txt
+2025-07-18 21:33:44,686 - StockDataLoader - INFO - Iniciando procesamiento de 3 símbolos en lotes de 10
+2025-07-18 21:33:44,686 - StockDataLoader - INFO - Procesando lote 1/1 (3 símbolos)
+2025-07-18 21:33:45,608 - StockDataLoader - INFO - Datos existentes para A hasta 2025-07-01 04:00:00, continuando desde 2025-08-01 04:00:00
+2025-07-18 21:33:45,612 - StockDataLoader - INFO - Datos existentes para AAA hasta 2025-07-01 04:00:00, continuando desde 2025-08-01 04:00:00
+2025-07-18 21:33:45,626 - StockDataLoader - INFO - Datos existentes para AA hasta 2025-07-01 04:00:00, continuando desde 2025-08-01 04:00:00
+2025-07-18 21:33:51,406 - yfinance - ERROR - $AAA: possibly delisted; no price data found  (1mo 2025-08-01 -> 2025-07-18) (Yahoo error = "Invalid input - start date cannot be after end date. startDate = 1754020800, endDate = 1752867226")
+2025-07-18 21:33:51,407 - StockDataLoader - WARNING - No se encontraron datos para AAA
+2025-07-18 21:33:51,408 - yfinance - ERROR - $AA: possibly delisted; no price data found  (1mo 2025-08-01 -> 2025-07-18) (Yahoo error = "Invalid input - start date cannot be after end date. startDate = 1754020800, endDate = 1752867226")
+2025-07-18 21:33:51,408 - StockDataLoader - WARNING - No se encontraron datos para AA
+2025-07-18 21:33:51,413 - yfinance - ERROR - $A: possibly delisted; no price data found  (1mo 2025-08-01 -> 2025-07-18) (Yahoo error = "Invalid input - start date cannot be after end date. startDate = 1754020800, endDate = 1752867226")
+2025-07-18 21:33:51,414 - StockDataLoader - WARNING - No se encontraron datos para A
+2025-07-18 21:33:51,422 - StockDataLoader - INFO - Lote completado. Éxito: 0, Fallos: 3
+2025-07-18 21:33:51,422 - StockDataLoader - INFO - Estadísticas guardadas en stock_data_stats_20250718_213351.json
+2025-07-18 21:33:51,423 - StockDataLoader - INFO - Proceso de carga de datos completado
