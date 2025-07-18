@@ -58,7 +58,7 @@ BATCH_SIZE = 10  # Tamaño del lote para inserciones en DB (reducido para testin
 RETRY_ATTEMPTS = 3  # Intentos de reintentos para llamadas a API
 REQUEST_DELAY = 1.0  # Tiempo de espera entre solicitudes (en segundos)
 SEQUENTIAL_MODE = False  # Si es True, procesa símbolos secuencialmente sin concurrencia
-TEST_MODE = True  # Si es True, limita el número de símbolos a procesar
+TEST_MODE = False  # Si es True, limita el número de símbolos a procesar
 TEST_SYMBOLS_COUNT = 3  # Número de símbolos a procesar en modo prueba
 
 # Configuración de conexión a TimescaleDB
