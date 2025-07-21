@@ -87,7 +87,22 @@ export const fetchLatestPrice = async (symbol) => {
  */
 export const searchSymbols = async (query) => {
   try {
-    const response = await api.get(`/search/${query}`);
+    const response = await api.get(`/search/${encodeURIComponent(query)}`);
+    return response.data;
+  } catch (error) {
+    throw error;
+  }
+};
+
+/**
+ * Obtiene candidatos recomendados de la estrategia de ruptura
+ * @param {Object} params - Parámetros opcionales (limit, max_distance)
+ */
+export const fetchRecommendedSymbols = async (params = {}) => {
+  try {
+    const queryParams = new URLSearchParams(params).toString();
+    const url = queryParams ? `/recommended?${queryParams}` : '/recommended';
+    const response = await api.get(url);
     return response.data;
   } catch (error) {
     throw error;

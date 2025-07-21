@@ -268,6 +268,76 @@ def search_symbols(query):
         logger.error(f"Error buscando símbolos: {e}")
         return jsonify({'error': str(e)}), 500
 
+@app.route('/api/recommended', methods=['GET'])
+def get_recommended_symbols():
+    """Obtiene los símbolos candidatos recomendados de la estrategia de ruptura."""
+    try:
+        # Parámetros opcionales
+        limit = request.args.get('limit', 50, type=int)
+        max_distance = request.args.get('max_distance', 5.0, type=float)
+        
+        recommended_query = text("""
+            SELECT 
+                sc.symbol,
+                sc.historical_high,
+                sc.current_price,
+                sc.resistance_distance_percent,
+                sc.historical_high_date,
+                sc.subsequent_low,
+                sc.subsequent_low_date,
+                sc.years_of_data,
+                sc.last_review_date,
+                COUNT(spm.date) as data_points,
+                MAX(spm.date) as last_data_date
+            FROM strategy_candidates sc
+            LEFT JOIN stock_prices_monthly spm ON sc.symbol = spm.symbol
+            WHERE sc.is_valid = true 
+                AND sc.resistance_distance_percent <= :max_distance
+            GROUP BY sc.symbol, sc.historical_high, sc.current_price, 
+                     sc.resistance_distance_percent, sc.historical_high_date,
+                     sc.subsequent_low, sc.subsequent_low_date, sc.years_of_data,
+                     sc.last_review_date
+            ORDER BY sc.resistance_distance_percent ASC
+            LIMIT :limit
+        """)
+        
+        with engine.connect() as conn:
+            result = conn.execute(recommended_query, {
+                'limit': limit,
+                'max_distance': max_distance
+            })
+            
+            candidates = []
+            for row in result:
+                candidates.append({
+                    'symbol': row[0],
+                    'historical_high': float(row[1]) if row[1] else None,
+                    'current_price': float(row[2]) if row[2] else None,
+                    'resistance_distance_percent': float(row[3]) if row[3] else None,
+                    'historical_high_date': row[4].isoformat() if row[4] else None,
+                    'subsequent_low': float(row[5]) if row[5] else None,
+                    'subsequent_low_date': row[6].isoformat() if row[6] else None,
+                    'years_of_data': float(row[7]) if row[7] else None,
+                    'last_review_date': row[8].isoformat() if row[8] else None,
+                    'data_points': row[9],
+                    'last_data_date': row[10].isoformat() if row[10] else None
+                })
+        
+        logger.info(f"Devolviendo {len(candidates)} candidatos recomendados")
+        
+        return jsonify({
+            'candidates': candidates,
+            'count': len(candidates),
+            'criteria': {
+                'max_distance_percent': max_distance,
+                'limit': limit
+            }
+        })
+        
+    except Exception as e:
+        logger.error(f"Error obteniendo candidatos recomendados: {e}")
+        return jsonify({'error': str(e)}), 500
+
 @app.errorhandler(404)
 def not_found(error):
     return jsonify({'error': 'Endpoint no encontrado'}), 404
