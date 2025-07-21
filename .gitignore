@@ -10,3 +10,6 @@ timescaledb_data
 #data test
 data/
 historical_data/
+stock_data_stats_*
+stock_data_loader.log
+__pycache__

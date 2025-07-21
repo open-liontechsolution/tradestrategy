@@ -30,7 +30,7 @@ import traceback
 
 import pandas as pd
 import yfinance as yf
-from sqlalchemy import create_engine, text, Column, String, Float, DateTime
+from sqlalchemy import create_engine, text, Column, String, Float, DateTime, func
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.exc import SQLAlchemyError
@@ -188,8 +188,16 @@ class StockDataLoader:
     def download_stock_data(self, symbol):
         """Descarga datos históricos mensuales para un símbolo."""
         try:
-            # Obtener la última fecha disponible para este símbolo
-            start_date = self.get_last_date_for_symbol(symbol)
+            # Obtener la última fecha disponible para este símbolo y si necesita actualización
+            date_info = self.get_last_date_for_symbol(symbol)
+            
+            # Si no necesita actualización, salir rápidamente
+            if not date_info['need_update']:
+                # Ya está registrado el log en get_last_date_for_symbol
+                return symbol, None
+            
+            # Obtener la fecha de inicio para la descarga
+            start_date = date_info['start_date']
             
             # Añadir sleep para evitar rate limits
             time.sleep(REQUEST_DELAY)
@@ -240,27 +248,51 @@ class StockDataLoader:
             return symbol, None
     
     def get_last_date_for_symbol(self, symbol):
-        """Obtiene la última fecha disponible para un símbolo."""
+        """Obtiene la última fecha disponible para un símbolo.
+        
+        Retorna un diccionario con:
+        - need_update: True si necesita actualizar, False si ya está al día
+        - start_date: La fecha desde la que se deberían descargar nuevos datos
+        - last_date: La última fecha disponible en la base de datos
+        """
         try:
-            with self.engine.connect() as conn:
-                result = conn.execute(
-                    text("SELECT MAX(date) FROM stock_prices_monthly WHERE symbol = :symbol"),
-                    {"symbol": symbol}
-                ).fetchone()
-                
-                if result and result[0]:
-                    # Convertir a datetime y añadir un mes para continuar desde ahí
-                    last_date = result[0]
-                    # Añadir un mes para obtener datos nuevos
-                    next_month = last_date + relativedelta(months=1)
-                    logger.info(f"Datos existentes para {symbol} hasta {last_date}, continuando desde {next_month}")
-                    return next_month.strftime("%Y-%m-%d")
+            # Crear sesión
+            session = self.session_maker()
+            
+            # Consultar la última fecha para este símbolo
+            result = session.query(func.max(StockPrice.date))\
+                    .filter(StockPrice.symbol == symbol)\
+                    .scalar()
+            
+            # Verificar si ya tenemos datos actualizados (hasta el mes actual o el anterior)
+            current_date = datetime.now()
+            current_month_start = datetime(current_date.year, current_date.month, 1)
+            previous_month = current_date.month - 1 if current_date.month > 1 else 12
+            previous_year = current_date.year if current_date.month > 1 else current_date.year - 1
+            previous_month_start = datetime(previous_year, previous_month, 1)
+            
+            # Si hay datos, verificar si están actualizados
+            if result:
+                # Si los datos son del mes actual o anterior, están actualizados
+                if ((result.year == current_date.year and result.month == current_date.month) or
+                    (result.year == previous_year and result.month == previous_month)):
+                    logger.info(f"Datos para {symbol} ya actualizados hasta {result.strftime('%Y-%m-%d')}, no es necesario descargar")
+                    return {'need_update': False, 'start_date': None, 'last_date': result}
                 else:
-                    logger.info(f"No hay datos previos para {symbol}, descargando desde el inicio")
-                    return DEFAULT_START_DATE
+                    # Si no están actualizados, descargar desde el mes siguiente al último dato
+                    next_date = result + relativedelta(months=1)
+                    logger.info(f"Datos existentes para {symbol} hasta {result}, continuando desde {next_date}")
+                    return {'need_update': True, 'start_date': next_date, 'last_date': result}
+            else:
+                # Si no hay datos previos, descargar desde el inicio
+                logger.info(f"No hay datos previos para {symbol}, descargando desde el inicio")
+                return {'need_update': True, 'start_date': DEFAULT_START_DATE, 'last_date': None}
+                
         except Exception as e:
-            logger.warning(f"Error al consultar la última fecha para {symbol}: {e}")
-            return DEFAULT_START_DATE
+            logger.error(f"Error al obtener la última fecha para {symbol}: {e}")
+            return {'need_update': True, 'start_date': DEFAULT_START_DATE, 'last_date': None}
+        finally:
+            session.close()
     
     def save_to_db(self, dataframes):
         """Guarda los datos en la base de datos TimescaleDB."""
@@ -276,6 +308,9 @@ class StockDataLoader:
             combined_df = combined_df.drop_duplicates(subset=["symbol", "date"])
             
             records_saved = 0
+            
+            # Crear sesión de base de datos
+            session = self.session_maker()
             
             try:
                 # Usar inserción masiva para mejor rendimiento
