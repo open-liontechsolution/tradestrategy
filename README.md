@@ -1,111 +1,88 @@
-# TradeStrategy - Sistema Avanzado de Análisis de Trading
+# TradeStrategy - Sistema Modular de Análisis de Trading
 
-## 🚀 Sistema Completo con 644 Acciones y Filtrado Inteligente
+## Proyecto estructurado en módulos independientes
 
-Sistema avanzado de análisis de estrategias de trading con datos históricos completos, filtrado por años mínimos y análisis multi-mercado.
+Este proyecto está organizado en módulos especializados, cada uno con su propio entorno virtual y funcionalidad específica, permitiendo un desarrollo más mantenible y escalable.
 
-### 📊 **Mercados y Acciones Disponibles**
+## Estructura del Proyecto
 
-### 🌍 **644 Acciones de 6 Mercados Globales:**
-- **🇺🇸 S&P 500**: 503 acciones (Apple, Microsoft, Google, etc.)
-- **🇺🇸 NASDAQ 100**: 100 acciones tech (NVIDIA, Tesla, Amazon, etc.)
-- **🇪🇸 IBEX 35**: 11 acciones españolas (Telefónica, Santander, etc.)
-- **🇩🇪 DAX 40**: 10 acciones alemanas (SAP, Mercedes-Benz, etc.)
-- **🇫🇷 CAC 40**: 10 acciones francesas (LVMH, L'Oréal, etc.)
-- **🇬🇧 FTSE 100**: 10 acciones británicas (Shell, BP, etc.)
+### Módulos Principales
 
-### 📈 **Datos Históricos Disponibles:**
-- **Período**: Hasta 40+ años de historia (según la acción)
-- **Intervalos**: Diario, semanal, mensual
-- **Filtrado**: Por años mínimos de historia (configurable)
-- **Formato**: CSV individual y dataset combinado
+#### [market_data_symbols](./market_data_symbols)
+- **Función**: Obtención de símbolos (tickers) de los principales mercados mundiales
+- **Herramienta principal**: `symbol_fetcher.py`
+- **Características**: 
+  - Obtiene símbolos de múltiples fuentes
+  - Valida y corrige símbolos automáticamente
+  - Almacena resultados en formato texto y JSON
 
-### 🎆 **NUEVAS FUNCIONALIDADES V2.0:**
-- ✅ **644 acciones** de 6 mercados globales  
-- ✅ **Filtrado por años mínimos** configurable
-- ✅ **Histórico completo** disponible (hasta décadas atrás)
-- ✅ **Descarga paralela** optimizada
-- ✅ **Sistema integrado** con menú interactivo
+#### [stock_data_loader](./stock_data_loader)
+- **Función**: Descarga y almacenamiento de datos históricos
+- **Herramienta principal**: `stock_data_loader.py`
+- **Características**:
+  - Descarga en paralelo de datos OHLCV mensuales
+  - Almacenamiento en TimescaleDB
+  - Procesamiento por lotes y gestión de errores
 
-## Características
+### Directorios de Datos
 
-- Obtención de listado de acciones populares para trading
-- Consulta de precios históricos (mensuales/semanales)
-- Visualización de gráficos de precios
-- Análisis de datos para estrategias de trading
+- **data/**: Archivos de configuración y listados
+- **historical_data/**: Datos históricos descargados
 
-## Instalación
+### Archivos de Soporte
 
-1. Crear un entorno virtual:
+- **docker-compose.yml**: Configuración para TimescaleDB
+- **requirements.txt**: Dependencias globales mínimas
+
+## Configuración de Base de Datos
+
+El proyecto utiliza TimescaleDB para el almacenamiento eficiente de series temporales:
+
 ```bash
+# Iniciar la base de datos
+docker-compose up -d
+```
+
+## Uso del Sistema
+
+Cada módulo debe utilizarse desde su propio directorio con su entorno virtual correspondiente.
+
+### 1. Obtención de Símbolos de Mercado
+
+```bash
+cd market_data_symbols
+
+# Crear y activar entorno virtual si no existe
 python -m venv venv
 source venv/bin/activate  # En Linux/Mac
-# o
-venv\Scripts\activate  # En Windows
-```
 
-2. Instalar dependencias:
-```bash
+# Instalar dependencias del módulo
 pip install -r requirements.txt
+
+# Ejecutar el fetcher de símbolos
+python symbol_fetcher.py
 ```
 
-## 🚀 Uso Rápido
+### 2. Carga de Datos Históricos
 
-### 1. **Sistema Principal (Recomendado)**
 ```bash
-# Activar entorno virtual
-source venv/bin/activate
+cd stock_data_loader
 
-# Configurar filtrado (opcional)
-export MIN_STOCK_YEARS=5  # 5 años mínimos por defecto
+# Crear y activar entorno virtual si no existe
+python -m venv venv
+source venv/bin/activate  # En Linux/Mac
 
-# Ejecutar sistema integrado
-python integrated_main.py
+# Instalar dependencias del módulo
+pip install -r requirements.txt
+
+# Ejecutar el cargador de datos
+python stock_data_loader.py
 ```
 
-### 2. **Configuración de Filtrado**
-```bash
-# Menos restrictivo (1-3 años)
-export MIN_STOCK_YEARS=3
+## Documentación Detallada
 
-# Equilibrado (5 años - por defecto)
-export MIN_STOCK_YEARS=5
+Cada módulo contiene su propia documentación en su archivo README.md correspondiente.
 
-# Conservador (10+ años)
-export MIN_STOCK_YEARS=10
-```
+## Licencia
 
-### 3. **Ejemplos y Demostraciones**
-```bash
-# Ver ejemplos de configuración
-python example_with_env.py
-
-# Demostración completa de filtrado
-python demo_filtering.py
-
-# Análisis individual
-python main.py
-```
-
-## Uso
-
-```python
-from stock_analyzer import StockAnalyzer
-
-# Crear instancia del analizador
-analyzer = StockAnalyzer()
-
-# Obtener lista de acciones populares
-stocks = analyzer.get_popular_stocks()
-
-# Obtener datos históricos
-data = analyzer.get_stock_data("AAPL", period="1y")
-
-# Graficar datos
-analyzer.plot_stock_data("AAPL", data)
-```
-
-## APIs Utilizadas
-
-- Yahoo Finance (yfinance) - Gratuita para datos históricos
-- Sin límites de API key para uso básico
+Distribuido bajo la Licencia MIT. Ver `LICENSE` para más información.

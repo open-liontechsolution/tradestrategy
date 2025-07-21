@@ -13,3 +13,6 @@ historical_data/
 stock_data_stats_*
 stock_data_loader.log
 __pycache__
+
+#node dependencies
+node_modules
